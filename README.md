@@ -1,4 +1,4 @@
-\# 🐦 Twitter Sentiment Analysis (NLP)
+# 🐦 Twitter Sentiment Analysis (NLP)
 
 
 
@@ -6,13 +6,13 @@ A Machine Learning project for classifying Twitter text into sentiment categorie
 
 
 
-\## 📌 Overview
+## 📌 Overview
 
 
 
-This project performs \*\*sentiment analysis on Twitter data\*\* using classical Machine Learning approaches.
+This project performs **sentiment analysis on Twitter data** using classical Machine Learning approaches.
 
-The dataset is sourced from \*\*Kaggle\*\*, and the pipeline includes preprocessing, feature extraction, model training, and evaluation.
+The dataset is sourced from **Kaggle**, and the pipeline includes preprocessing, feature extraction, model training, and evaluation.
 
 
 
@@ -20,11 +20,11 @@ The goal is to automatically classify tweets as:
 
 
 
-\* Positive 🙂
+* Positive 🙂
 
-\* Negative 🙁
+* Negative 🙁
 
-\* (Optional) Neutral 😐
+* (Optional) Neutral 😐
 
 
 
@@ -32,23 +32,23 @@ The goal is to automatically classify tweets as:
 
 
 
-\## 📂 Dataset
+## 📂 Dataset
 
 
 
-\* Source: \*\*Kaggle\*\*
+* Source: **Kaggle**
 
-\* Type: Labeled Twitter sentiment dataset
+* Type: Labeled Twitter sentiment dataset
 
-\* Format: CSV
+* Format: CSV
 
-\* Fields typically include:
+* Fields typically include:
 
 
 
-&nbsp; \* `text`
+&nbsp; * `text`
 
-&nbsp; \* `label` / `sentiment`
+&nbsp; * `label` / `sentiment`
 
 
 
@@ -60,7 +60,7 @@ The goal is to automatically classify tweets as:
 
 
 
-\## 🧠 NLP Pipeline
+## 🧠 NLP Pipeline
 
 
 
@@ -68,47 +68,47 @@ The project follows a standard NLP workflow:
 
 
 
-1\. Text Cleaning
+1. Text Cleaning
 
 
 
-&nbsp;  \* Lowercasing
+&nbsp;  * Lowercasing
 
-&nbsp;  \* Removing URLs, mentions, punctuation
+&nbsp;  * Removing URLs, mentions, punctuation
 
-&nbsp;  \* Removing stopwords
+&nbsp;  * Removing stopwords
 
-2\. Tokenization
+2. Tokenization
 
-3\. Stemming / Lemmatization
+3. Stemming / Lemmatization
 
-4\. Feature Extraction:
-
-
-
-&nbsp;  \* Bag of Words (BoW)
-
-&nbsp;  \* TF-IDF
-
-5\. Model Training:
+4. Feature Extraction:
 
 
 
-&nbsp;  \* Logistic Regression
+&nbsp;  * Bag of Words (BoW)
 
-&nbsp;  \* Naive Bayes
+&nbsp;  * TF-IDF
 
-&nbsp;  \* (Optional: SVM / other classifiers)
-
-6\. Evaluation:
+5. Model Training:
 
 
 
-&nbsp;  \* Accuracy
+&nbsp;  * Logistic Regression
 
-&nbsp;  \* Confusion Matrix
+&nbsp;  * Naive Bayes
 
-&nbsp;  \* Classification Report
+&nbsp;  * (Optional: SVM / other classifiers)
+
+6. Evaluation:
+
+
+
+&nbsp;  * Accuracy
+
+&nbsp;  * Confusion Matrix
+
+&nbsp;  * Classification Report
 
 
 
@@ -116,7 +116,7 @@ The project follows a standard NLP workflow:
 
 
 
-\## 📊 Results
+## 📊 Results
 
 
 
@@ -128,13 +128,13 @@ Evaluation metrics include:
 
 
 
-\* Accuracy
+* Accuracy
 
-\* Precision
+* Precision
 
-\* Recall
+* Recall
 
-\* F1-score
+* F1-score
 
 
 
@@ -146,21 +146,21 @@ Evaluation metrics include:
 
 
 
-\## 🛠 Tech Stack
+## 🛠 Tech Stack
 
 
 
-\* Python
+* Python
 
-\* Pandas
+* Pandas
 
-\* NumPy
+* NumPy
 
-\* Scikit-learn
+* Scikit-learn
 
-\* NLTK / Text preprocessing libraries
+* NLTK / Text preprocessing libraries
 
-\* Matplotlib / Seaborn (for visualization)
+* Matplotlib / Seaborn (for visualization)
 
 
 
@@ -168,11 +168,11 @@ Evaluation metrics include:
 
 
 
-\## 🚀 How to Run
+## 🚀 How to Run
 
 
 
-1\. Clone the repository:
+1. Clone the repository:
 
 
 
@@ -186,7 +186,7 @@ cd <repo-name>
 
 
 
-2\. Install dependencies:
+2. Install dependencies:
 
 
 
@@ -198,7 +198,7 @@ pip install -r requirements.txt
 
 
 
-3\. Run the Jupyter Notebook:
+3. Run the Jupyter Notebook:
 
 
 
@@ -214,17 +214,17 @@ jupyter notebook
 
 
 
-\## 🎯 Key Learnings
+## 🎯 Key Learnings
 
 
 
-\* Practical NLP preprocessing
+* Practical NLP preprocessing
 
-\* Text vectorization techniques (TF-IDF vs BoW)
+* Text vectorization techniques (TF-IDF vs BoW)
 
-\* Model comparison in classification problems
+* Model comparison in classification problems
 
-\* Evaluating ML models properly
+* Evaluating ML models properly
 
 
 
@@ -232,17 +232,17 @@ jupyter notebook
 
 
 
-\## 📌 Future Improvements
+## 📌 Future Improvements
 
 
 
-\* Use Deep Learning (LSTM / GRU)
+* Use Deep Learning (LSTM / GRU)
 
-\* Fine-tune Transformer models (e.g., BERT)
+* Fine-tune Transformer models (e.g., BERT)
 
-\* Hyperparameter tuning
+* Hyperparameter tuning
 
-\* Deploy as API (FastAPI / Flask)
+* Deploy as API (FastAPI / Flask)
 
 
 
