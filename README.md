@@ -185,21 +185,6 @@ cd twitter-sentiment-analysis
 ```
 
 
-2. Run the Jupyter Notebook:
-
-
-
-```bash
-
-jupyter notebook
-
-```
-
-
-
----
-
-
 
 ## 🎯 Key Learnings
 
