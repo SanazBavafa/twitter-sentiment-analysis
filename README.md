@@ -178,9 +178,9 @@ Evaluation metrics include:
 
 ```bash
 
-git clone <your-repo-link>
+git clone https://github.com/SanazBavafa/twitter-sentiment-analysis
 
-cd <repo-name>
+cd twitter-sentiment-analysis
 
 ```
 
